@@ -22,7 +22,12 @@ const ProjectCard = styled(Card)(({ theme }) => ({
 
 // Custom component for skill icon + name
 const SkillIcon = ({ iconSrc, label }: { iconSrc: string, label: string }) => (
-  <Box sx={{ display: 'flex', alignItems: 'center', marginRight: 2, marginBottom: 1 }}>
+  <Box sx={{ 
+    display: 'flex', 
+    alignItems: 'center', 
+    marginRight: 2, // Use a fixed value
+    marginBottom: 1 
+  }}>
     <Image src={iconSrc} alt={label} width={24} height={24} />
     <Typography variant="body2" sx={{ marginLeft: 1 }}>
       {label}
