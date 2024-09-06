@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Slabo+27px&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ECF0F1; /* Light smoky gray */
+  padding-top: 60px; /* Space for the sticky navbar */
+}
+
+footer {
+  color: #2C3E50; /* Darker gray for footer text */
+  text-align: center;
+  padding: 16px;
+}
+
+h2, h3 {
+  font-family: 'Slabo 27px', serif;
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.experience-container, .skill-container {
+  width: 650px;
+  margin: 15px auto;
+}
+
+.experience-container {
+  background-color: #BDC3C7; /* Lighter gray */
+}
+
+.skill-container {
+  background-color: #95A5A6; /* Subtle gray-blue */
+  padding: 10px 0;
+}
+
+li.skill-item {
+  margin: 15px 0;
+}
+
+/* Remove any default list styles to avoid conflicts */
+ul, ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+.link-container {
+  display: block;
+}
+
+.link-button {
+  margin: 0 auto;
+  border: solid 2px #2C3E50; /* Darker gray border */
+  border-radius: 8px;
+  font-size: 16px;
+  color: #2C3E50; /* Darker gray text */
+}
+
+.link-button:hover,
+a:hover {
+  color: #E74C3C; /* Modern red */
+}
+
+.link-button:active,
+a:active {
+  color: #3498DB; /* Modern blue */
+}
+
+figure {
+  border: 2px solid #BDC3C7; /* Lighter gray border */
+  overflow: auto;
+}
+
+footer {
+  color: #2C3E50; /* Darker gray for footer text */
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .experience-container, .skill-container {
+    width: 250px;
+  }
+
+  .link-button {
+    font-size: 16px;
+  }
+}
+
+.section-padding {
+  padding-top: 60px; /* Match the navbar height */
+}
