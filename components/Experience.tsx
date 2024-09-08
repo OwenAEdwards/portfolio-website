@@ -323,7 +323,7 @@ export default function Experience(): JSX.Element {
               Engineering Teaching Assistant
             </Typography>
             <Typography variant="h6" component="p">
-            University of Cincinnati, College of Engineering and Applied Sciences &mdash; Department of Engineering and Computing Education
+            University of Cincinnati, College of Engineering and Applied Science &mdash; Department of Engineering and Computing Education
             </Typography>
           </Box>
         </Box>
