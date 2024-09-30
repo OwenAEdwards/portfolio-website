@@ -364,6 +364,20 @@ export default function Experience(): JSX.Element {
           </List>
         </Box>
       </ExperienceBox>
+
+      <Box sx={{ mt: 4, textAlign: 'center' }}> {/* Center the button */}
+        <Button 
+          variant="contained" 
+          color="primary" 
+          size="large" // Set the size to large
+          href="./resume.pdf"
+          download 
+          sx={{ padding: '12px 24px' }} // Adjust padding for a larger button
+        >
+          View Full Resume
+        </Button>
+      </Box>
+
     </Container>
   );
 }

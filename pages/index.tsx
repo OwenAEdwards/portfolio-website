@@ -1,4 +1,5 @@
 import { ThemeProvider, createTheme } from '@mui/material/styles';
+import Head from 'next/head';
 import Navbar from '@/components/Navbar';
 import AboutMe from '@/components/AboutMe';
 import Experience from '@/components/Experience';
@@ -34,6 +35,9 @@ export default function Home(): JSX.Element {
   return (
     <ThemeProvider theme={theme}>
       <div>
+        <Head>
+          <title>Owen Edwards</title>
+        </Head>
         <Navbar />
         <main>
           <section id="about-me" className="py-10 section-padding">
