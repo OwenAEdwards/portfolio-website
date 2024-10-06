@@ -370,7 +370,7 @@ export default function Experience(): JSX.Element {
           variant="contained" 
           color="primary" 
           size="large" // Set the size to large
-          href="./resume.pdf"
+          href="./CS_Resume_Owen_Edwards.pdf"
           download 
           sx={{ padding: '12px 24px' }} // Adjust padding for a larger button
         >
