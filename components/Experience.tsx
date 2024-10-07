@@ -80,7 +80,7 @@ export default function Experience(): JSX.Element {
           </Typography>
           <List>
             <BulletPointItem>
-              Assisted 110 students by holding 20 hours of office hours and answering course-related emails each week.
+              Assisted 110 students by holding 20 office hours per week and answering course-related emails each week.
             </BulletPointItem>
             <BulletPointItem>
               Provided guidance on C programming and debugging using GDB in Linux, helping students solve complex coding issues.
@@ -323,7 +323,7 @@ export default function Experience(): JSX.Element {
               Engineering Teaching Assistant
             </Typography>
             <Typography variant="h6" component="p">
-            University of Cincinnati, College of Engineering and Applied Science &mdash; Department of Engineering and Computing Education
+            University of Cincinnati, College of Engineering and Applied Science &mdash; Department of Engineering &amp; Computing Education
             </Typography>
           </Box>
         </Box>
