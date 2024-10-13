@@ -52,7 +52,6 @@ export default function Education(): JSX.Element {
                   <CourseworkListItem>
                     <ListItemText primary="Information Security &amp; Assurance" />
                   </CourseworkListItem>
-                  {/* Add more courses for 2021-2022 */}
                 </List>
               </Box>
 
@@ -80,7 +79,6 @@ export default function Education(): JSX.Element {
                   <CourseworkListItem>
                     <ListItemText primary="Software Engineering" />
                   </CourseworkListItem>
-                  {/* Add more courses for 2022-2023 */}
                 </List>
               </Box>
 
@@ -105,7 +103,6 @@ export default function Education(): JSX.Element {
                   <CourseworkListItem>
                     <ListItemText primary="User Interface I" />
                   </CourseworkListItem>
-                  {/* Add more courses for 2023-2024 */}
                 </List>
               </Box>
 
@@ -116,9 +113,14 @@ export default function Education(): JSX.Element {
                 </Typography>
                 <List sx={{ display: 'flex', flexDirection: 'column' }}>
                   <CourseworkListItem>
-                    <ListItemText primary="TBA" />
+                    <ListItemText primary="Engineering Interactive Visual Interfaces for Data Science" />
                   </CourseworkListItem>
-                  {/* Add more courses for 2024-2025 */}
+                  <CourseworkListItem>
+                    <ListItemText primary="Large Scale Software Engineering" />
+                  </CourseworkListItem>
+                  <CourseworkListItem>
+                    <ListItemText primary="Security Vulnerability Assessment" />
+                  </CourseworkListItem>
                 </List>
               </Box>
             </Box>
