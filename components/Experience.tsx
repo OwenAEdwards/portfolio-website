@@ -71,7 +71,7 @@ export default function Experience(): JSX.Element {
         </Box>
 
         <Typography variant="body2" color="textSecondary">
-          August 2024 &mdash; PRESENT
+          August 2024 &mdash; December 2024
         </Typography>
 
         <Box sx={{ mt: 2 }}>
