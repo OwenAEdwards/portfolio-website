@@ -17,7 +17,7 @@ export default function Footer(): JSX.Element {
             sx={{ mt: 2, color: '#2C3E50', cursor: 'pointer' }}
             onClick={handleFooterClick}
           >
-            &#169; 2024 Owen Edwards
+            &#169; 2025 Owen Edwards
           </Typography>
         </Box>
       </Container>

@@ -39,7 +39,28 @@ export default function Projects(): JSX.Element {
   // Project data
   const projects = [
     {
-      title: 'Long-Distance Ride Share Mobile Application',
+      title: 'BulletinHub',
+      description: [
+        'Developed a web-based bulletin board application using React for a dynamic and interactive user interface.',
+        'Designed and implemented a Go backend to handle server-side logic, leveraging WebSockets for real-time updates.',
+        'Utilized MongoDB for efficient data storage and retrieval, ensuring scalability and reliability.',
+        'Containerized the application using Docker for seamless deployment and environment consistency.',
+        'Incorporated Material UI for a clean and modern user interface, enhancing user experience.',
+        'Implemented TypeScript in the frontend for type-safe coding, improving maintainability and debugging.'
+      ],
+      skills: [
+        { name: 'Go', icon: 'icons/go-original.svg' },
+        { name: 'MongoDB', icon: 'icons/mongodb-original.svg' },
+        { name: 'Docker', icon: 'icons/docker-original.svg' },
+        { name: 'React', icon: 'icons/react-original.svg' },
+        { name: 'TypeScript', icon: 'icons/typescript-original.svg' },
+        { name: 'Material UI', icon: 'icons/materialui-original.svg' }
+      ],
+      imageUrl: 'bulletinhub-project.png',
+      link: 'https://github.com/OwenAEdwards/BulletinHub'
+    },    
+    {
+      title: 'RideShare',
       description: [
         'Developed a long-distance ride share app for Android using Kotlin (Gradle) with Jetpack Compose, Material 3, and Retrofit.',
         'Designed an ASP.NET Core backend supported by Microsoft SQL Server and MongoDB for data storage.',
@@ -56,8 +77,7 @@ export default function Projects(): JSX.Element {
         { name: 'MongoDB', icon: 'icons/mongodb-original.svg' }
       ],
       imageUrl: 'ride-share-app-project.png',
-      link: '#', // No link or placeholder for the "Work In Progress" status
-      status: 'Work In Progress' // Status for displaying on the button
+      link: 'https://github.com/OwenAEdwards/RideShare.Android',
     },
     {
       title: 'Portfolio Website',
@@ -76,11 +96,11 @@ export default function Projects(): JSX.Element {
         { name: 'React Router', icon: 'icons/reactrouter-original.svg' },
         { name: 'Vercel', icon: 'icons/vercel-original.svg' }
       ],
-      imageUrl: 'portfolio-website-new-project.png',
+      imageUrl: 'portfolio-website-project.png',
       link: 'https://owen-edwards.vercel.app/',
     },
     {
-      title: 'E-Commerce Application',
+      title: 'ShopFront',
       description: [
         'Developed a full-stack e-commerce application using Java Spring Boot with Maven dependencies and React.js with Material UI.',
         'Designed and implemented a PostgreSQL database schema using an Entity-Relationship (ER) Diagram for efficient data organization.',
@@ -98,23 +118,6 @@ export default function Projects(): JSX.Element {
       ],
       imageUrl: 'e-commerce-project.png',
       link: 'https://github.com/OwenAEdwards/E-Commerce-Website'
-    },
-    {
-      title: 'Portfolio Website (Old)',
-      description: [
-        'Applied basics of front-end web development to develop static portfolio website in Visual Studio Code.',
-        'Displayed resume and contact information using HTML and CSS.',
-        'Improved website responsiveness to mobile with CSS media queries and Bootstrap framework.',
-        'Committed website to GitHub Pages static web hosting service through Git version control.'
-      ],
-      skills: [
-        { name: 'HTML', icon: 'icons/html5-original.svg' },
-        { name: 'CSS', icon: 'icons/css3-original.svg' },
-        { name: 'Bootstrap', icon: 'icons/bootstrap-original.svg' },
-        { name: 'GitHub Pages', icon: 'icons/github-original.svg' }
-      ],
-      imageUrl: 'portfolio-website-old-project.png',
-      link: 'https://owenaedwards.github.io/'
     },
     {
       title: 'Autonomous Product Retrieval (APR) System',
