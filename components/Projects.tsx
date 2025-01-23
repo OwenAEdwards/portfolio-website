@@ -174,6 +174,7 @@ export default function Projects(): JSX.Element {
               target="_blank"
               sx={{ mt: 2 }}
             >
+              {'View Project'}
             </Button>
           </ProjectCard>
         ))}
