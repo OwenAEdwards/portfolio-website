@@ -173,9 +173,7 @@ export default function Projects(): JSX.Element {
               href={project.link}
               target="_blank"
               sx={{ mt: 2 }}
-              disabled={project.status === 'Work In Progress'}
             >
-              {project.status || 'View Project'}
             </Button>
           </ProjectCard>
         ))}
