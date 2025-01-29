@@ -130,7 +130,7 @@ export default function Experience(): JSX.Element {
               Software Engineer Co-op
             </Typography>
             <Typography variant="h6" component="p">
-              Paycor
+              Paycor (now Paychex, Inc.)
             </Typography>
           </Box>
         </Box>
