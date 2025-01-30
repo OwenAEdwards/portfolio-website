@@ -25,6 +25,11 @@ export default function Education(): JSX.Element {
         Relevant Coursework
       </Typography>
 
+      {/* Introduction paragraph */}
+      <Typography variant="body1" sx={{ mb: 3 }}>
+        Throughout my academic journey at the <strong>University of Cincinnati</strong>, I have taken a variety of courses that have helped me build a strong foundation in computer science and software engineering. These courses have not only deepened my understanding of key concepts but also provided me with practical skills that I apply in real-world projects. Here are some of the key courses I have taken:
+      </Typography>
+
       {/* University of Cincinnati */}
       <Box sx={{ display: 'flex', flexDirection: 'column', mb: 4 }}>
         <Box sx={{ mt: 2, display: 'flex' }}>
