@@ -403,7 +403,14 @@ export default function Experience(): JSX.Element {
           size="large"
           href="./CS_Resume_Owen_Edwards.pdf"
           download 
-          sx={{ padding: '12px 24px' }}
+          sx={{
+            padding: '12px 24px',
+            transition: 'all 0.3s ease',  // Smooth transition for hover effects
+            '&:hover': {
+              transform: 'scale(1.05)',  // Slightly scale up the button to make it pop
+              boxShadow: '0px 4px 15px rgba(0, 0, 0, 0.2)',  // Add a subtle shadow to create a 3D effect
+            },
+          }}
         >
           View Full Resume
         </Button>
