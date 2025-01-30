@@ -325,6 +325,15 @@ export default function Experience(): JSX.Element {
               />
               <ListItemText primary="XML" />
             </ColoredListItem>
+            <ColoredListItem>
+              <Box
+                  component="img"
+                  src="/icons/python-original.svg"
+                  alt="Python Logo"
+                  sx={{ width: '20px', height: '20px', mr: 1 }}
+              />
+              <ListItemText primary="Python" />
+            </ColoredListItem>
           </List>
         </Box>
       </ExperienceBox>
