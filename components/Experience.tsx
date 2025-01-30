@@ -43,6 +43,21 @@ const ExperienceBox = styled(Box)(({ theme }) => ({
   },
 }));
 
+// Clickable Box for company name and logo
+const ClickableHeader = styled(Box)({
+  display: 'flex',
+  alignItems: 'center',
+  marginBottom: '16px',
+  cursor: 'pointer',
+  transition: 'transform 0.2s ease',
+  '&:hover': {
+    transform: 'scale(1.02)', // Slight lift effect
+  },
+  '&:hover h3, &:hover p': { // Targets Typography elements inside
+    color: 'red !important', 
+  },
+});
+
 export default function Experience(): JSX.Element {
   return (
     <Container component="section" sx={{ my: 5 }}>
@@ -52,8 +67,9 @@ export default function Experience(): JSX.Element {
 
       {/* Computer Science Teaching Assistant */}
       <ExperienceBox>
-        <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
-          {/* Logo Placeholder */}
+        <ClickableHeader
+        onClick={() => window.open('https://ceas.uc.edu/academics/departments/computer-science.html', '_blank')}
+        >
           <Box
             component="img"
             src="/uc-ceas-logo.jpg"
@@ -68,7 +84,7 @@ export default function Experience(): JSX.Element {
               University of Cincinnati, College of Engineering and Applied Science &mdash; Department of Computer Science
             </Typography>
           </Box>
-        </Box>
+        </ClickableHeader>
 
         <Typography variant="body2" color="textSecondary">
           August 2024 &mdash; December 2024
@@ -118,7 +134,9 @@ export default function Experience(): JSX.Element {
 
       {/* Paycor Software Engineer Co-op */}
       <ExperienceBox>
-        <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
+        <ClickableHeader
+        onClick={() => window.open('https://www.paycor.com/company/', '_blank')}
+        >
           <Box
             component="img"
             src="/paycor-logo.png"
@@ -133,7 +151,7 @@ export default function Experience(): JSX.Element {
               Paycor (now Paychex, Inc.)
             </Typography>
           </Box>
-        </Box>
+        </ClickableHeader>
 
         <Typography variant="body2" color="textSecondary">
           May 2024 &mdash; August 2024
@@ -237,7 +255,9 @@ export default function Experience(): JSX.Element {
 
       {/* Siemens NX Software Development Co-op */}
       <ExperienceBox>
-        <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
+        <ClickableHeader
+        onClick={() => window.open('https://www.sw.siemens.com/en-US/about-us/', '_blank')}
+        >
           <Box
             component="img"
             src="/siemens-logo.jpg"
@@ -252,7 +272,7 @@ export default function Experience(): JSX.Element {
               Siemens Digital Industries Software
             </Typography>
           </Box>
-        </Box>
+        </ClickableHeader>
 
         <Typography variant="body2" color="textSecondary">
           January 2023 &mdash; December 2023
@@ -311,7 +331,9 @@ export default function Experience(): JSX.Element {
 
       {/* Engineering Teaching Assistant */}
       <ExperienceBox>
-        <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
+        <ClickableHeader
+        onClick={() => window.open('https://ceas.uc.edu/academics/departments/engineering-education.html', '_blank')}
+        >
           <Box
             component="img"
             src="/uc-ceas-logo.jpg"
@@ -326,7 +348,7 @@ export default function Experience(): JSX.Element {
             University of Cincinnati, College of Engineering and Applied Science &mdash; Department of Engineering &amp; Computing Education
             </Typography>
           </Box>
-        </Box>
+        </ClickableHeader>
 
         <Typography variant="body2" color="textSecondary">
           August 2022 &mdash; December 2022
@@ -369,10 +391,10 @@ export default function Experience(): JSX.Element {
         <Button 
           variant="contained" 
           color="primary" 
-          size="large" // Set the size to large
+          size="large"
           href="./CS_Resume_Owen_Edwards.pdf"
           download 
-          sx={{ padding: '12px 24px' }} // Adjust padding for a larger button
+          sx={{ padding: '12px 24px' }}
         >
           View Full Resume
         </Button>
