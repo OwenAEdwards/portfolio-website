@@ -172,7 +172,13 @@ export default function Projects(): JSX.Element {
               color="primary"
               href={project.link}
               target="_blank"
-              sx={{ mt: 2 }}
+              sx={{
+                mt: 2,
+                transition: 'transform 0.3s ease, background-color 0.3s ease',
+                '&:hover': {
+                  transform: 'scale(1.03)', // Slight zoom on hover
+                },
+              }}
             >
               {'View Project'}
             </Button>
