@@ -27,6 +27,9 @@ export default function Navbar(): JSX.Element {
             <Button onClick={(e) => handleScroll(e, 'projects')} sx={navButtonStyle}>
               Projects
             </Button>
+            <Button onClick={(e) => handleScroll(e, 'testimonials')} sx={navButtonStyle}>
+              Testimonials
+            </Button>
             <Button onClick={(e) => handleScroll(e, 'contact')} sx={navButtonStyle}>
               Contact Me
             </Button>

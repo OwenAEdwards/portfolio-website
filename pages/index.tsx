@@ -5,6 +5,7 @@ import AboutMe from '@/components/AboutMe';
 import Experience from '@/components/Experience';
 import Education from '@/components/Education';
 import Projects from '@/components/Projects';
+import Testimonials from '@/components/Testimonials';
 import ContactMe from '@/components/ContactMe';
 import Footer from '@/components/Footer';
 
@@ -51,6 +52,9 @@ export default function Home(): JSX.Element {
           </section>
           <section id="projects" className="py-10 section-padding">
             <Projects />
+          </section>
+          <section id="testimonials" className="py-10 section-padding">
+            <Testimonials />
           </section>
           <section id="contact" className="py-10 section-padding">
             <ContactMe />
