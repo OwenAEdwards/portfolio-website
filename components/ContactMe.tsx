@@ -7,7 +7,10 @@ export default function ContactMe(): JSX.Element {
       <Typography variant="h2" component="h2" align="center" gutterBottom>
         Contact Me
       </Typography>
-      <Box sx={{ backgroundColor: '#BDC3C7', p: 3, borderRadius: 2 }}>
+      <Typography variant="body1" align="center" sx={{ mb: 3 }}>
+        Feel free to reach out to me through the following methods:
+      </Typography>
+      <Box sx={{ backgroundColor: '#f5f5f5', p: 3, borderRadius: 2 }}>
         <Box sx={{ py: 2 }}>
           <MuiLink
             href="mailto:edwardoa@mail.uc.edu"
