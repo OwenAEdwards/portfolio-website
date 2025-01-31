@@ -177,7 +177,7 @@ const Testimonials = () => {
 
           <TestimonialContent>
             <Typography variant="body1">
-              &ldquo;I met Owen when I was taking my Engineering Design Thinking course, where he was the teaching assistant for our class. His confidence in the area of programming and his helping nature proved to be of great value to me. Additionally, I also like Owen's passion to keep himself updated about changes in the tech industry. I am more than happy to write Owen a recommendation and I can assure you that he will be a highly valuable asset for future companies that are looking for an employee with excellent soft and technical skills.&rdquo;
+              &ldquo;I met Owen when I was taking my Engineering Design Thinking course, where he was the teaching assistant for our class. His confidence in the area of programming and his helping nature proved to be of great value to me. Additionally, I also like Owen&apos;s passion to keep himself updated about changes in the tech industry. I am more than happy to write Owen a recommendation and I can assure you that he will be a highly valuable asset for future companies that are looking for an employee with excellent soft and technical skills.&rdquo;
             </Typography>
           </TestimonialContent>
         </TestimonialCard>
@@ -276,7 +276,7 @@ const Testimonials = () => {
 
           <TestimonialContent>
             <Typography variant="body1">
-              &ldquo;Owen was an exceptional student in my Data Structures and Discrete Computational Structures courses, consistently scoring top marks and actively contributing to class discussions. He impressed me with his in-depth understanding of topics like algorithm analysis and graph theory, consistently exceeding expectations by implementing efficient solutions in C++ using the STL. I particularly remember his initiative in creating and sharing a GitHub repository of his own data structure implementations, demonstrating not only his coding skills but also his passion for learning and problem-solving. Owen's strong mathematical foundation, combined with his ability to implement complex algorithms and collaborate effectively, makes him a valuable asset to any team seeking a talented and dedicated computer science professional.&rdquo;
+              &ldquo;Owen was an exceptional student in my Data Structures and Discrete Computational Structures courses, consistently scoring top marks and actively contributing to class discussions. He impressed me with his in-depth understanding of topics like algorithm analysis and graph theory, consistently exceeding expectations by implementing efficient solutions in C++ using the STL. I particularly remember his initiative in creating and sharing a GitHub repository of his own data structure implementations, demonstrating not only his coding skills but also his passion for learning and problem-solving. Owen&apos;s strong mathematical foundation, combined with his ability to implement complex algorithms and collaborate effectively, makes him a valuable asset to any team seeking a talented and dedicated computer science professional.&rdquo;
             </Typography>
           </TestimonialContent>
         </TestimonialCard>
