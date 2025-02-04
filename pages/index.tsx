@@ -48,14 +48,14 @@ export default function Home(): JSX.Element {
           <section id="experience" className="py-10 section-padding">
             <Experience />
           </section>
-          <section id="education" className="py-10 section-padding">
-            <Education />
-          </section>
           <section id="projects" className="py-10 section-padding">
             <Projects />
           </section>
           <section id="skills" className="py-10 section-padding">
             <Skills />
+          </section>
+          <section id="education" className="py-10 section-padding">
+            <Education />
           </section>
           <section id="testimonials" className="py-10 section-padding">
             <Testimonials />
