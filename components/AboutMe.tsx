@@ -31,7 +31,7 @@ export default function AboutMe(): JSX.Element {
         <Stack direction="row" spacing={2} alignItems="center" sx={{ mt: 2 }}>
           <SchoolIcon sx={{ fontSize: 32 }} />
           <Typography variant="body1">
-          I have had <strong>two previous Teaching Assistant positions</strong> at the University of Cincinnati. I most recently worked as a Computer Science Teaching Assistant, where I taught <strong>Linux</strong> and <strong>C</strong> to students in the Introduction to Computer Systems course from August 2024 to December 2024. Before that, I served as an Engineering Teaching Assistant, mentoring first-year students and helping them navigate the basics of programming and engineering principles with <strong>Python</strong> from August 2022 - December 2022.
+          I have had <strong>two previous Teaching Assistant positions</strong> at the University of Cincinnati. I most recently worked as a Computer Science Teaching Assistant, where I taught <strong>Linux</strong> and <strong>C</strong> to students in the Introduction to Computer Systems course from August 2024 - December 2024. Before that, I served as an Engineering Teaching Assistant, mentoring first-year students and helping them navigate the basics of programming and engineering principles with <strong>Python</strong> from August 2022 - December 2022.
           </Typography>
         </Stack>
 
