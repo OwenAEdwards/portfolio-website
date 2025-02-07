@@ -49,7 +49,7 @@ export default function Skills(): JSX.Element {
             {renderTechnology("Flask", "icons/flask-original.svg", 90)}
             {renderTechnology("Node.js", "icons/nodejs-original.svg", 85)}
             {renderTechnology("GraphQL", "icons/graphql-plain.svg", 85)}
-            {renderTechnology(".NET", "icons/dot-net-original.svg", 80)}
+            {renderTechnology("ASP.NET", "icons/dot-net-original.svg", 80)}
           </SkillSubsection>
 
           {/* Databases */}
